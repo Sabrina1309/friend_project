@@ -1,0 +1,72 @@
+body {
+    background-image: url(kiranScene.png.jpg);
+    background-position: center;
+}
+
+
+/* Custom styles */
+.hero-section {
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    color: white;
+}
+
+.btn-outline-primary {
+    transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.dropdown-menu {
+    min-width: 300px;
+}
+
+/* ===== QUICK ACCESS TILES ===== */
+.quick-access {
+    padding: 2rem 0;
+    /* background: #f8f9fa; */ /* Light gray background */
+  }
+  
+  .quick-access h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+   color: white;
+   
+
+   
+  }
+  
+  .tiles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .tile {
+    
+    color: white !important;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    border: 2px solid #e9ecef;
+  }
+  
+  .tile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    border-color: #4ca1af; /* Teal accent color */
+    background-color: #0d6efd;
+  }
+
+  .tile:visited {
+    color: white !important;
+  }
